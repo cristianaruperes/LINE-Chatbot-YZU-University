@@ -43,9 +43,9 @@ threading.Thread(target=wake_up_heroku).start()'''
 app = Flask(__name__)
 static_tmp_path = os.path.join(os.path.dirname(__file__), 'static', 'tmp')
 # Channel Access Token
-line_bot_api = LineBotApi('cg2xg/YSwQJczR1rlcGXvfmViywSkfsEJZsUCFu0DnxmeLDKXR4n81GnBt7hvsinSWdoEfBcD5HcetDV1+KZi6d78pPXrTAfiWHZrz5qeTb20fH4Eg3/rwSvvMRRSbHEHlwKYSbdRgGjQHkmDPAOEwdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('uxxaouH8h++c3Ev8hUx2EwYjqVDkWrh/fJxFlZZHky8uQ3U0QMLJxnciU1U/mL3IP0vIChD/560FycXKr4YJBLoWA5VuaOW36eza7y0hA2CuX7N73ad7ImJUa36YH58hYwOwkoSJ98gmS+55IXCkOAdB04t89/1O/w1cDnyilFU=')
 # Channel Secret
-handler = WebhookHandler('b6b443016624945c1ad4509931b65e2a')
+handler = WebhookHandler('ae88f4c5e091114fc280091999d41d33')
 
 # 監聽所有來自 /callback 的 Post Request
 @app.route("/callback", methods=['POST'])
