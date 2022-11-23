@@ -1,2 +1,1 @@
-# yzu-chatbot
-Yzu Chatbot
+# chatbot-indobeach
